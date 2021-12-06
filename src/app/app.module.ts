@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SchoolComponent } from './school/school.component';
 import { VsBranchComponent } from './vs-branch/vs-branch.component';
+import { FeatursComponent } from './featurs/featurs.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SchoolComponent,
-    VsBranchComponent
+    VsBranchComponent,
+    FeatursComponent
   ],
   imports: [
     BrowserModule,
